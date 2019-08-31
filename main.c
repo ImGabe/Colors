@@ -13,6 +13,7 @@ void centralizeColors(int col) {
   }
 
   int padlen = (col - 64) / 2;
+  printf("\n");
   printf("%*s%s%*s\n", padlen, "", text, padlen, "");
   printf("%*s%s%*s\n", padlen, "", text, padlen, "");
   printf("\n");
